@@ -53,7 +53,7 @@ class _AuthScreenState extends State<AuthScreen> {
         
         // Wyślij email weryfikacyjny z ActionCodeSettings
         final actionCodeSettings = ActionCodeSettings(
-          url: 'https://pamg2026-253b2.firebaseapp.com/__/auth/action',
+          url: 'xxxxx', //Zamień na swój URL z Firebase Console
           handleCodeInApp: false,
           androidPackageName: 'com.example.projekt',
           androidInstallApp: false,
@@ -248,7 +248,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 
                 // Wyślij email weryfikacyjny
                 final actionCodeSettings = ActionCodeSettings(
-                  url: 'https://pamg2026-253b2.firebaseapp.com/__/auth/action',
+                  url: 'xxxxx', //Zamień na swój URL z Firebase Console
                   handleCodeInApp: false,
                   androidPackageName: 'com.example.projekt',
                   androidInstallApp: false,
